@@ -50,12 +50,10 @@ public class Main {
     public void updateCustomer(@RequestBody NewCustomerRequest update,
                                @PathVariable("customerId") Integer id
                                ){
-        Customer customer =new Customer();
+        Customer customer = customerRepository.findById(id).get();
         customer.setName(update.name());
         customer.setEmail(update.email());
         customer.setAge(update.age());
         customerRepository.save(customer);
     }
-
-
 }
