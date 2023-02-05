@@ -2,7 +2,7 @@
 Took a course on Spring Boot and learned CRUD operation by using Spring Data JPA. Used Postgresql, Docker and Postman to Test the CRUD API's.  
 
 ### ScreenShots
-![App Screenshot]()
+![App Screenshot](https://github.com/TawhidKomol/spring-boot-course/blob/main/img/Screenshot%202023-02-06%20044206.png?raw=true)
 
 ### Spring MVC
 Model View Controller
